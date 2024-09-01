@@ -30,6 +30,19 @@ class ForandForEachLoop {
             for(i in 10 downTo 0 step 2){
                 println("adding 2 each number + ${a++}")
             }
+//            loop inside a array
+
+            val myArray =  ArrayList<Int>()
+            myArray.add(1);
+            myArray.add(2);
+            myArray.add(3);
+            myArray.add(4);
+            myArray.add(6);
+
+            for(i in myArray){
+                println("my array number is + ${i}")
+            }
+
         }
     }
 

@@ -16,6 +16,17 @@ class WhileAndDowhile {
              }
 //             .....................
 
+//             do-while-loop
+//             print at least one time when condition is false
+
+
+             var num:Int = 12
+             do{
+                 println("print number ${num}")
+                 num++
+
+             }while(num<10)
+
 
 
          }

@@ -11,7 +11,7 @@ class TripleandPair {
 
 //            2nd example of pair
 
-            var (x,y)=Pair("sourav", 32)
+            val (x,y)=Pair("sourav", 32)
             println("$x,$y")
 //      3rd example of pair
 
@@ -23,7 +23,14 @@ class TripleandPair {
             println(nested.second.first)
 //            akash
 
+//            Triple simple example
+            val (a1,b1,c) = Triple("sourav", "30","codding")
+            println("$a1, $b1, $c")
 
+// nested   Triple example basic example
+
+val number = Triple("sourav", "koushik",Triple("nill", "priya", "jhon"))
+            print("$number")
         }
     }
 }

@@ -7,6 +7,16 @@ var Audi = Audi()
 }
 open class Car {
 
+    fun pressBrakes(){
+        println("Car has been stoped")
+    }
+    fun pressAccln(speed:Int){
+        println("Car acclerated with "+ speed + " KM/hr speed")
+    }
+    fun ChengeGear(gearNo:Int){
+        println("Gear shiffted to "+ gearNo +)
+    }
+
 }
 
 
